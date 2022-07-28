@@ -11,7 +11,7 @@ jobs:
     steps:
     - uses: teoxoy/profile-readme-stats@v1
       with:
-        fetch-depth: 0
+        fetch-depth: readme
     - name: Generate README.md
       uses: teoxoy/profile-readme-stats@v1
       with:
